@@ -13,8 +13,7 @@ Comments received from - Mrunal Yadav (myra3714@colorado.edu)
 
 
 
-Reviewed for: Mrunal Yadav 
-Code reviewer name: Shrinithi Venkatesan (shve4446@colorado.edu)
+Reviewed for: Mrunal Yadav (myra3714@colorado.edu)
 
 1. A Macro can be defined in place of every shift operation mentioned for setting and clearing functions. Eg: define MASK(x) (1 << PIN) and use MASK macro.
 2. Delay needs to be uncommented in the main.c file. It affects the logic of the program.
