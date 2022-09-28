@@ -6,7 +6,7 @@ Extra credit:
 ### ANS: 00000694
 2. Size in bytes for the delay() function : 
 ### ANS: (in Hex) 1f98-1fc8 = (in decimal) 8136 - 8188 = 48 bytes.
-3.  Show the full disassembly of your delay() function, adding comments to each line to explain the functionality. 
+Show the full disassembly of your delay() function, adding comments to each line to explain the functionality. 
    1. 1f98:	b580      	push	{r7, lr} //Pushes the data to the stack
    2. 1f9a:	b084      	sub	sp, #16 //Subtracts value from the stack pointer
    3. 1f9c:	af00      	add	r7, sp, #0 //Adds value to the stack pointer and Stores it in R7
